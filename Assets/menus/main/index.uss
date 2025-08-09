@@ -1,0 +1,35 @@
+* {
+  font-size: 24px;
+}
+
+.container {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 156, 90);
+}
+
+.group {
+    align-items: center;
+}
+
+.title {
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+    -unity-font-style: bold;
+}
+
+.subtitle {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 16px;
+    -unity-font-style: bold;
+}
+
+.unity-button {
+    margin-bottom: 8px;
+    border-width: 0px;
+    border-radius: 4px;
+}

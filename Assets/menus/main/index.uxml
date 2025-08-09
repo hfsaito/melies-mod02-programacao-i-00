@@ -1,0 +1,13 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/menus/main/index.uss?fileID=7433441132597879392&amp;guid=feb51872002a93f4c93720daafef520d&amp;type=3#index" />
+    <ui:VisualElement class="container">
+        <ui:VisualElement class="group">
+            <ui:Label class="title" text="Menu" />
+            <ui:Label class="subtitle" text="The Game" />
+            <ui:Button name="startButton" text="Jogar" />
+            <ui:Button name="configButton" text="Configurações" />
+            <ui:Button name="creditButton" text="Créditos" />
+            <ui:Button name="exitButton" text="Sair" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

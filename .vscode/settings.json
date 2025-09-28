@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "melies-mod02-programacao-i-00.sln"
+    "dotnet.defaultSolution": "BLJ01_Programacao_Hiroshi_Saito.sln"
 }

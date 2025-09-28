@@ -1,0 +1,2938 @@
+fileFormatVersion: 2
+guid: 0dcc06cf5c16531409fb2d54a0a5a7a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8942103815824395024
+    second: Primary Atlas_0
+  - first:
+      213: 1923477148393123824
+    second: Primary Atlas_1
+  - first:
+      213: 8496817049821106179
+    second: Primary Atlas_2
+  - first:
+      213: 6371331270929845832
+    second: Primary Atlas_3
+  - first:
+      213: 5724878718474196984
+    second: Primary Atlas_4
+  - first:
+      213: 3014042738326300003
+    second: Primary Atlas_5
+  - first:
+      213: -5940500779912103545
+    second: Primary Atlas_6
+  - first:
+      213: 1365647115077277623
+    second: Primary Atlas_7
+  - first:
+      213: -1404632949670320258
+    second: Primary Atlas_8
+  - first:
+      213: 7389132836917649425
+    second: Primary Atlas_9
+  - first:
+      213: -6396756157946871437
+    second: Primary Atlas_10
+  - first:
+      213: -2841262752438378815
+    second: Primary Atlas_11
+  - first:
+      213: -7667080324735833218
+    second: Primary Atlas_12
+  - first:
+      213: -7576695249807527684
+    second: Primary Atlas_13
+  - first:
+      213: 5089109881412176346
+    second: Primary Atlas_14
+  - first:
+      213: -2265066064489251448
+    second: Primary Atlas_15
+  - first:
+      213: 7790953400307597881
+    second: Primary Atlas_16
+  - first:
+      213: 5730466837721215702
+    second: Primary Atlas_17
+  - first:
+      213: -1022274608542893394
+    second: Primary Atlas_18
+  - first:
+      213: -2742290494255204732
+    second: Primary Atlas_19
+  - first:
+      213: 1612109468131026405
+    second: Primary Atlas_20
+  - first:
+      213: 5656252561502717528
+    second: Primary Atlas_21
+  - first:
+      213: 5584347175719981305
+    second: Primary Atlas_22
+  - first:
+      213: -6435736096155801002
+    second: Primary Atlas_23
+  - first:
+      213: -3385658966777301397
+    second: Primary Atlas_24
+  - first:
+      213: -2456226239209411223
+    second: Primary Atlas_25
+  - first:
+      213: 4148691036169088941
+    second: Primary Atlas_26
+  - first:
+      213: 3636656606639452455
+    second: Primary Atlas_27
+  - first:
+      213: 2020832941338539566
+    second: Primary Atlas_28
+  - first:
+      213: 8105486656698164477
+    second: Primary Atlas_29
+  - first:
+      213: 6133278041413343828
+    second: Primary Atlas_30
+  - first:
+      213: -1412225276132748277
+    second: Primary Atlas_31
+  - first:
+      213: -792537560216352237
+    second: Primary Atlas_32
+  - first:
+      213: -8154046132294275416
+    second: Primary Atlas_33
+  - first:
+      213: -3432066395215344440
+    second: Primary Atlas_34
+  - first:
+      213: 6442481687114487630
+    second: Primary Atlas_35
+  - first:
+      213: -9208579799891837071
+    second: Primary Atlas_36
+  - first:
+      213: -6859909048268763252
+    second: Primary Atlas_37
+  - first:
+      213: 2160900942673959450
+    second: Primary Atlas_38
+  - first:
+      213: 6218897017164320327
+    second: Primary Atlas_39
+  - first:
+      213: -1298472754965835335
+    second: Primary Atlas_40
+  - first:
+      213: 1539749163110626651
+    second: Primary Atlas_41
+  - first:
+      213: -1078501180775780328
+    second: Primary Atlas_42
+  - first:
+      213: -5756086723489837180
+    second: Primary Atlas_43
+  - first:
+      213: 7557948448001485786
+    second: Primary Atlas_44
+  - first:
+      213: -5703411891760210793
+    second: Primary Atlas_45
+  - first:
+      213: 6788859998574957879
+    second: Primary Atlas_46
+  - first:
+      213: 2338329679688327380
+    second: Primary Atlas_47
+  - first:
+      213: 1628428867762768334
+    second: Primary Atlas_48
+  - first:
+      213: -2629036070306812094
+    second: Primary Atlas_49
+  - first:
+      213: 6180844095109609313
+    second: Primary Atlas_50
+  - first:
+      213: -6754859938610691253
+    second: Primary Atlas_51
+  - first:
+      213: 2575493912872827927
+    second: Primary Atlas_52
+  - first:
+      213: -557551841485531128
+    second: Primary Atlas_53
+  - first:
+      213: -643359458174779575
+    second: Primary Atlas_54
+  - first:
+      213: -2418661360197851357
+    second: Primary Atlas_55
+  - first:
+      213: 1360197114967669498
+    second: Primary Atlas_56
+  - first:
+      213: 2988527872419932411
+    second: Primary Atlas_57
+  - first:
+      213: -2146154134663442416
+    second: Primary Atlas_58
+  - first:
+      213: 7014178308919848230
+    second: Primary Atlas_59
+  - first:
+      213: -8065191313031938933
+    second: Primary Atlas_60
+  - first:
+      213: -5853314442552713399
+    second: Primary Atlas_61
+  - first:
+      213: -2255098177253830502
+    second: Primary Atlas_62
+  - first:
+      213: -6114033645822815477
+    second: Primary Atlas_63
+  - first:
+      213: -5243584205161382651
+    second: Primary Atlas_64
+  - first:
+      213: -4111828095425201322
+    second: Primary Atlas_65
+  - first:
+      213: 2032795202808724489
+    second: Primary Atlas_66
+  - first:
+      213: -9184329483213422418
+    second: Primary Atlas_67
+  - first:
+      213: 5666382382015209496
+    second: Primary Atlas_68
+  - first:
+      213: 5963514153176780604
+    second: Primary Atlas_69
+  - first:
+      213: -1214364373547199170
+    second: Primary Atlas_70
+  - first:
+      213: 6487197318317671157
+    second: Primary Atlas_71
+  - first:
+      213: -2468346910544902421
+    second: Primary Atlas_72
+  - first:
+      213: 7857037707535103301
+    second: Primary Atlas_73
+  - first:
+      213: -2758228415113806968
+    second: Primary Atlas_74
+  - first:
+      213: 6873864942389279409
+    second: Primary Atlas_75
+  - first:
+      213: -6204679292315336023
+    second: Primary Atlas_76
+  - first:
+      213: 2283576575217343927
+    second: Primary Atlas_77
+  - first:
+      213: -6160142269985529245
+    second: Primary Atlas_78
+  - first:
+      213: -1939835489765831331
+    second: Primary Atlas_79
+  - first:
+      213: -8043421728069137975
+    second: Primary Atlas_80
+  - first:
+      213: 8987445248973664142
+    second: Primary Atlas_81
+  - first:
+      213: -7345791605308913086
+    second: Primary Atlas_82
+  - first:
+      213: -5364388229978601714
+    second: Primary Atlas_83
+  - first:
+      213: -5581888820444204794
+    second: Primary Atlas_84
+  - first:
+      213: 5267653042353691678
+    second: Primary Atlas_85
+  - first:
+      213: -2540049949250200169
+    second: Primary Atlas_86
+  - first:
+      213: 4503149067020748372
+    second: Primary Atlas_87
+  - first:
+      213: -3839105955134197074
+    second: Primary Atlas_88
+  - first:
+      213: 2644724372965713257
+    second: Primary Atlas_89
+  - first:
+      213: 2488999638952745002
+    second: Primary Atlas_90
+  - first:
+      213: -2706832655041941113
+    second: Primary Atlas_91
+  - first:
+      213: 5859755797943644670
+    second: Primary Atlas_92
+  - first:
+      213: -5016626048835214552
+    second: Primary Atlas_93
+  - first:
+      213: 5564391037322760933
+    second: Primary Atlas_94
+  - first:
+      213: -3319394791085903566
+    second: Primary Atlas_95
+  - first:
+      213: -8810978781713587142
+    second: Primary Atlas_96
+  - first:
+      213: -647941761097107889
+    second: Primary Atlas_97
+  - first:
+      213: -3968574045467457839
+    second: Primary Atlas_98
+  - first:
+      213: 7283135412212444200
+    second: Primary Atlas_99
+  - first:
+      213: 8639217627553402493
+    second: Primary Atlas_100
+  - first:
+      213: -5584663337393942738
+    second: Primary Atlas_101
+  - first:
+      213: 6630405911287921484
+    second: Primary Atlas_102
+  - first:
+      213: -7084521079692274367
+    second: Primary Atlas_103
+  - first:
+      213: -7388608163800761083
+    second: Primary Atlas_104
+  - first:
+      213: 6867966600623929
+    second: Primary Atlas_105
+  - first:
+      213: -7208386608302691406
+    second: Primary Atlas_106
+  - first:
+      213: -2048474306217434379
+    second: Primary Atlas_107
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Primary Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f43f11f4f347e380800000000000000
+      internalID: -8942103815824395024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 108
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffad83864091ba10800000000000000
+      internalID: 1923477148393123824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 108
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300d118b612cae570800000000000000
+      internalID: 8496817049821106179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 108
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e8c1eb8048b6850800000000000000
+      internalID: 6371331270929845832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 122
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f719dcdcdad27f40800000000000000
+      internalID: 5724878718474196984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 106
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365e8c3c6e704d920800000000000000
+      internalID: 3014042738326300003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 122
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7897869c30a1f8da0800000000000000
+      internalID: -5940500779912103545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 114
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7d7bec0d0c3f210800000000000000
+      internalID: 1365647115077277623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 112
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77671b36cdb18ce0800000000000000
+      internalID: -1404632949670320258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 112
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110a6a67a297b8660800000000000000
+      internalID: 7389132836917649425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 110
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371c8c27a282a37a0800000000000000
+      internalID: -6396756157946871437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_11
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 108
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce9c5f849ec198d0800000000000000
+      internalID: -2841262752438378815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_12
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 118
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7bebbb011f099590800000000000000
+      internalID: -7667080324735833218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_13
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 114
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf035d730db2ad690800000000000000
+      internalID: -7576695249807527684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_14
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 120
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9c080597620a640800000000000000
+      internalID: 5089109881412176346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_15
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 98
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d73594a6ed090e0800000000000000
+      internalID: -2265066064489251448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932c4fed6d60f1c60800000000000000
+      internalID: 7790953400307597881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_17
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 96
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d277834a35b68f40800000000000000
+      internalID: 5730466837721215702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_18
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 96
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa36e6e8a620d1f0800000000000000
+      internalID: -1022274608542893394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_19
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 112
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486fcf2235d61f9d0800000000000000
+      internalID: -2742290494255204732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 104
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e56efa150d5f5610800000000000000
+      internalID: 1612109468131026405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_21
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 110
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85643409cbb0f7e40800000000000000
+      internalID: 5656252561502717528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0de3f4b269f7d40800000000000000
+      internalID: 5584347175719981305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_23
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 90
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a69785e1cafa6a0800000000000000
+      internalID: -6435736096155801002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_24
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 90
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b667f929b19b301d0800000000000000
+      internalID: -3385658966777301397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_25
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 90
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96dede3cf3bb9edd0800000000000000
+      internalID: -2456226239209411223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_26
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 90
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafa4b5448c139930800000000000000
+      internalID: 4148691036169088941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_27
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72172d87aeff77230800000000000000
+      internalID: 3636656606639452455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_28
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 94
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2634e27ad07b0c10800000000000000
+      internalID: 2020832941338539566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_29
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 104
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4a9286b297c7070800000000000000
+      internalID: 8105486656698164477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_30
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 90
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a552712e7cd1550800000000000000
+      internalID: 6133278041413343828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_31
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 100
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b049749f794c66ce0800000000000000
+      internalID: -1412225276132748277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a462cb9475005f0800000000000000
+      internalID: -792537560216352237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_33
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 84
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aea372ae3207de80800000000000000
+      internalID: -8154046132294275416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_34
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 84
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc42a32cc9de50d0800000000000000
+      internalID: -3432066395215344440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_35
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 72
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e471b60f5fa486950800000000000000
+      internalID: 6442481687114487630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_36
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 72
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ffb9d067d843080800000000000000
+      internalID: -9208579799891837071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_37
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 84
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8fc372e015bcc0a0800000000000000
+      internalID: -6859909048268763252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_38
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 82
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a53ea55ff0dfd10800000000000000
+      internalID: 2160900942673959450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_39
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ec0d253e5fd4650800000000000000
+      internalID: 6218897017164320327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_40
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 80
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b11db1b8e5eafde0800000000000000
+      internalID: -1298472754965835335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_41
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 80
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55f966b4b94e5510800000000000000
+      internalID: 1539749163110626651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_42
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8103506e3e46801f0800000000000000
+      internalID: -1078501180775780328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_43
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 80
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fcb0e3f954e10b0800000000000000
+      internalID: -5756086723489837180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_44
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 76
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbe7d9d11a33e860800000000000000
+      internalID: 7557948448001485786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_45
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 76
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79cd4e73a1969d0b0800000000000000
+      internalID: -5703411891760210793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_46
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 90
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7355be42330e63e50800000000000000
+      internalID: 6788859998574957879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d06395647a637020800000000000000
+      internalID: 2338329679688327380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_48
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 64
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9cdfc6d67599610800000000000000
+      internalID: 1628428867762768334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_49
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 72
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f6caf8f99c38bd0800000000000000
+      internalID: -2629036070306812094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_50
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 54
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167341df4f4c6c550800000000000000
+      internalID: 6180844095109609313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_51
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 54
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43c793bcaae142a0800000000000000
+      internalID: -6754859938610691253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_52
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 68
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c37f5711efdb320800000000000000
+      internalID: 2575493912872827927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_53
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 68
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808d360ed8d2348f0800000000000000
+      internalID: -557551841485531128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_54
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 66
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94fba904bf35217f0800000000000000
+      internalID: -643359458174779575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_55
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327a179be403f6ed0800000000000000
+      internalID: -2418661360197851357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_56
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 64
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afab826c11460e210800000000000000
+      internalID: 1360197114967669498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_57
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 64
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8a1fc1442697920800000000000000
+      internalID: 2988527872419932411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_58
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 64
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01056227f245732e0800000000000000
+      internalID: -2146154134663442416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_59
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 62
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62dea6e520e575160800000000000000
+      internalID: 7014178308919848230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_60
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 62
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c3a256b3fa21090800000000000000
+      internalID: -8065191313031938933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f5bf4d689d4cea0800000000000000
+      internalID: -5853314442552713399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_62
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 36
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a909723e72844b0e0800000000000000
+      internalID: -2255098177253830502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_63
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 54
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03d1fbeac6962ba0800000000000000
+      internalID: -6114033645822815477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_64
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 36
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50db18572fb0b37b0800000000000000
+      internalID: -5243584205161382651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_65
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 36
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bb5b2f12adfe6c0800000000000000
+      internalID: -4111828095425201322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_66
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 52
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c388c7770f53c10800000000000000
+      internalID: 2032795202808724489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_67
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 50
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0cae4eef4ba8080800000000000000
+      internalID: -9184329483213422418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_68
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 48
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8106c8131c803ae40800000000000000
+      internalID: 5666382382015209496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_69
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 48
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3fcd19b688a2c250800000000000000
+      internalID: 5963514153176780604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_70
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 48
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3554d64906b52fe0800000000000000
+      internalID: -1214364373547199170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_71
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 48
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f201322797270a50800000000000000
+      internalID: 6487197318317671157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_72
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 48
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6c98e009baebdd0800000000000000
+      internalID: -2468346910544902421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_73
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 48
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545ba78aa2ec90d60800000000000000
+      internalID: 7857037707535103301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_74
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 36
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88bb0c3ceddc8b9d0800000000000000
+      internalID: -2758228415113806968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_75
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 34
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1babf1deebfd46f50800000000000000
+      internalID: 6873864942389279409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_76
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 32
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a28254be0d84e9a0800000000000000
+      internalID: -6204679292315336023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_77
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 32
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd9b37dbc4e0bf10800000000000000
+      internalID: 2283576575217343927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_78
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 32
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362e4a74e37c28aa0800000000000000
+      internalID: -6160142269985529245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_79
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 32
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5dcfc556e15415e0800000000000000
+      internalID: -1939835489765831331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_80
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 32
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9c7cfdd86006090800000000000000
+      internalID: -8043421728069137975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_81
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 42
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8fe85f16d1d9bc70800000000000000
+      internalID: 8987445248973664142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_82
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 30
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a048364718e0a90800000000000000
+      internalID: -7345791605308913086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07c6da935ddd85b0800000000000000
+      internalID: -5364388229978601714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601f2b121b52982b0800000000000000
+      internalID: -5581888820444204794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_85
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 18
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c5f7568867a1940800000000000000
+      internalID: 5267653042353691678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_86
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d5137670eefbcd0800000000000000
+      internalID: -2540049949250200169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_87
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 18
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456476eb7366e7e30800000000000000
+      internalID: 4503149067020748372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_88
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2b3296971c8bac0800000000000000
+      internalID: -3839105955134197074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_89
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 18
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965607b0ec2f3b420800000000000000
+      internalID: 2644724372965713257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_90
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a289addfbf3ba8220800000000000000
+      internalID: 2488999638952745002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_91
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 18
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7813cc9aa066f6ad0800000000000000
+      internalID: -2706832655041941113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_92
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 16
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef177f61ad8025150800000000000000
+      internalID: 5859755797943644670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_93
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 16
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823a434103d516ab0800000000000000
+      internalID: -5016626048835214552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_94
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 16
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e29df2ca20b83d40800000000000000
+      internalID: 5564391037322760933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231fa0046042fe1d0800000000000000
+      internalID: -3319394791085903566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_96
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 16
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3425780b7d19b580800000000000000
+      internalID: -8810978781713587142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_97
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 16
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f467aa6b66c0207f0800000000000000
+      internalID: -647941761097107889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_98
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 16
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6c31b9eeacce8c0800000000000000
+      internalID: -3968574045467457839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_99
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 14
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cadf7d115e21560800000000000000
+      internalID: 7283135412212444200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_100
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e0d93e8aaa4e770800000000000000
+      internalID: 8639217627553402493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_101
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f8c70984a4f72b0800000000000000
+      internalID: -5584663337393942738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_102
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b77f20c0fe30c50800000000000000
+      internalID: 6630405911287921484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_103
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145dc290d99bead90800000000000000
+      internalID: -7084521079692274367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_104
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50dba148504667990800000000000000
+      internalID: -7388608163800761083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_105
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9373f851166681000800000000000000
+      internalID: 6867966600623929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_106
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb6f68429aa6fb90800000000000000
+      internalID: -7208386608302691406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Primary Atlas_107
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f22566c87b5293e0800000000000000
+      internalID: -2048474306217434379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Primary Atlas_0: -8942103815824395024
+      Primary Atlas_1: 1923477148393123824
+      Primary Atlas_10: -6396756157946871437
+      Primary Atlas_100: 8639217627553402493
+      Primary Atlas_101: -5584663337393942738
+      Primary Atlas_102: 6630405911287921484
+      Primary Atlas_103: -7084521079692274367
+      Primary Atlas_104: -7388608163800761083
+      Primary Atlas_105: 6867966600623929
+      Primary Atlas_106: -7208386608302691406
+      Primary Atlas_107: -2048474306217434379
+      Primary Atlas_11: -2841262752438378815
+      Primary Atlas_12: -7667080324735833218
+      Primary Atlas_13: -7576695249807527684
+      Primary Atlas_14: 5089109881412176346
+      Primary Atlas_15: -2265066064489251448
+      Primary Atlas_16: 7790953400307597881
+      Primary Atlas_17: 5730466837721215702
+      Primary Atlas_18: -1022274608542893394
+      Primary Atlas_19: -2742290494255204732
+      Primary Atlas_2: 8496817049821106179
+      Primary Atlas_20: 1612109468131026405
+      Primary Atlas_21: 5656252561502717528
+      Primary Atlas_22: 5584347175719981305
+      Primary Atlas_23: -6435736096155801002
+      Primary Atlas_24: -3385658966777301397
+      Primary Atlas_25: -2456226239209411223
+      Primary Atlas_26: 4148691036169088941
+      Primary Atlas_27: 3636656606639452455
+      Primary Atlas_28: 2020832941338539566
+      Primary Atlas_29: 8105486656698164477
+      Primary Atlas_3: 6371331270929845832
+      Primary Atlas_30: 6133278041413343828
+      Primary Atlas_31: -1412225276132748277
+      Primary Atlas_32: -792537560216352237
+      Primary Atlas_33: -8154046132294275416
+      Primary Atlas_34: -3432066395215344440
+      Primary Atlas_35: 6442481687114487630
+      Primary Atlas_36: -9208579799891837071
+      Primary Atlas_37: -6859909048268763252
+      Primary Atlas_38: 2160900942673959450
+      Primary Atlas_39: 6218897017164320327
+      Primary Atlas_4: 5724878718474196984
+      Primary Atlas_40: -1298472754965835335
+      Primary Atlas_41: 1539749163110626651
+      Primary Atlas_42: -1078501180775780328
+      Primary Atlas_43: -5756086723489837180
+      Primary Atlas_44: 7557948448001485786
+      Primary Atlas_45: -5703411891760210793
+      Primary Atlas_46: 6788859998574957879
+      Primary Atlas_47: 2338329679688327380
+      Primary Atlas_48: 1628428867762768334
+      Primary Atlas_49: -2629036070306812094
+      Primary Atlas_5: 3014042738326300003
+      Primary Atlas_50: 6180844095109609313
+      Primary Atlas_51: -6754859938610691253
+      Primary Atlas_52: 2575493912872827927
+      Primary Atlas_53: -557551841485531128
+      Primary Atlas_54: -643359458174779575
+      Primary Atlas_55: -2418661360197851357
+      Primary Atlas_56: 1360197114967669498
+      Primary Atlas_57: 2988527872419932411
+      Primary Atlas_58: -2146154134663442416
+      Primary Atlas_59: 7014178308919848230
+      Primary Atlas_6: -5940500779912103545
+      Primary Atlas_60: -8065191313031938933
+      Primary Atlas_61: -5853314442552713399
+      Primary Atlas_62: -2255098177253830502
+      Primary Atlas_63: -6114033645822815477
+      Primary Atlas_64: -5243584205161382651
+      Primary Atlas_65: -4111828095425201322
+      Primary Atlas_66: 2032795202808724489
+      Primary Atlas_67: -9184329483213422418
+      Primary Atlas_68: 5666382382015209496
+      Primary Atlas_69: 5963514153176780604
+      Primary Atlas_7: 1365647115077277623
+      Primary Atlas_70: -1214364373547199170
+      Primary Atlas_71: 6487197318317671157
+      Primary Atlas_72: -2468346910544902421
+      Primary Atlas_73: 7857037707535103301
+      Primary Atlas_74: -2758228415113806968
+      Primary Atlas_75: 6873864942389279409
+      Primary Atlas_76: -6204679292315336023
+      Primary Atlas_77: 2283576575217343927
+      Primary Atlas_78: -6160142269985529245
+      Primary Atlas_79: -1939835489765831331
+      Primary Atlas_8: -1404632949670320258
+      Primary Atlas_80: -8043421728069137975
+      Primary Atlas_81: 8987445248973664142
+      Primary Atlas_82: -7345791605308913086
+      Primary Atlas_83: -5364388229978601714
+      Primary Atlas_84: -5581888820444204794
+      Primary Atlas_85: 5267653042353691678
+      Primary Atlas_86: -2540049949250200169
+      Primary Atlas_87: 4503149067020748372
+      Primary Atlas_88: -3839105955134197074
+      Primary Atlas_89: 2644724372965713257
+      Primary Atlas_9: 7389132836917649425
+      Primary Atlas_90: 2488999638952745002
+      Primary Atlas_91: -2706832655041941113
+      Primary Atlas_92: 5859755797943644670
+      Primary Atlas_93: -5016626048835214552
+      Primary Atlas_94: 5564391037322760933
+      Primary Atlas_95: -3319394791085903566
+      Primary Atlas_96: -8810978781713587142
+      Primary Atlas_97: -647941761097107889
+      Primary Atlas_98: -3968574045467457839
+      Primary Atlas_99: 7283135412212444200
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

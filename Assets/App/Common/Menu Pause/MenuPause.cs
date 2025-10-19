@@ -9,6 +9,16 @@ namespace Assets.App.Common.MenuPause
         [SerializeField]
         private GameObject menuConfiguration;
 
+        void OnEnable()
+        {
+            Time.timeScale = 0;
+        }
+
+        void OnDisable()
+        {
+            Time.timeScale = 1;
+        }
+
         void Start()
         {
             gameObject.SetActive(false);

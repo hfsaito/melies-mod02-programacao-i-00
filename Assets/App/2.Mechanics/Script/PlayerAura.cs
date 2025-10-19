@@ -22,17 +22,14 @@ namespace Assets.App.Mechanics
             );
             if (hit.collider != null)
             {
-                // Debug.Log(hit.collider.name);
                 hit.rigidbody.AddForceY(15f);
             }
-
-            // Debug.Log()
         }
 
-        void OnDrawGizmos()
-        {
-            Gizmos.color = Color.blue;
-            Gizmos.DrawWireSphere(transform.position, 2);
-        }
+        // void OnDrawGizmos()
+        // {
+        //     Gizmos.color = Color.blue;
+        //     Gizmos.DrawWireSphere(transform.position, 2);
+        // }
     }
 }

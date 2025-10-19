@@ -6,16 +6,16 @@ using UnityEngine.EventSystems;
 namespace Assets.App.Components.MenuButton
 {
     [RequireComponent(typeof(Button))]
+    [RequireComponent(typeof(HorizontalLayoutGroup))]
     public class MenuButtonText : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
         private Button buttonComponent;
-        private GameObject textGameObject;
         private TextMeshProUGUI textComponent;
+        private HorizontalLayoutGroup horizontalLayoutComponent;
 
-        private Vector3 unpressedPosition;
-        private Vector3 pressedPosition;
+        private RectOffset idlePosition;
+        private RectOffset pressedPosition;
 
-        private static readonly Vector3 PRESSED_OFFSET = new(0, -4, 0);
         private static readonly Color DISABLED_COLOR = new(
             (float)(0x54 / 255.0),
             (float)(0x54 / 255.0),
@@ -25,19 +25,15 @@ namespace Assets.App.Components.MenuButton
         void Start()
         {
             buttonComponent = GetComponent<Button>();
+            horizontalLayoutComponent = GetComponent<HorizontalLayoutGroup>();
             textComponent = GetComponentInChildren<TextMeshProUGUI>();
-            textGameObject = textComponent.gameObject;
-            unpressedPosition = textGameObject.transform.localPosition;
-            pressedPosition = unpressedPosition + PRESSED_OFFSET;
+
+            idlePosition = new(8, 8, 6, 15);
+            pressedPosition = new(8, 8, 10, 11);
         }
 
         void Update()
         {
-            if (textComponent == null)
-            {
-                Debug.LogWarning("missing text component");
-                return;
-            }
             if (buttonComponent.interactable)
             {
                 textComponent.color = Color.black;
@@ -52,13 +48,13 @@ namespace Assets.App.Components.MenuButton
         {
             if (buttonComponent.interactable)
             {
-                textGameObject.transform.localPosition = pressedPosition;
+                horizontalLayoutComponent.padding = pressedPosition;
             }
         }
 
         public void OnPointerUp(PointerEventData eventData)
         {
-            textGameObject.transform.localPosition = unpressedPosition;
+            horizontalLayoutComponent.padding = idlePosition;
         }
     }
 

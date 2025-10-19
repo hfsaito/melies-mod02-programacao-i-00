@@ -39,8 +39,6 @@ namespace Assets.App.Components.MenuConfiguration
 
         void Start()
         {
-            Debug.Log($"{4f / 3f:F2}");
-            Debug.Log(143.981.ToString("F2"));
             gameObject.SetActive(false);
 
             resolutions = EligibleResolutions();

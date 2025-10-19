@@ -1,9 +1,9 @@
+using UnityEngine;
+
 namespace Assets.App.Mechanics
 {
-    using UnityEngine;
-
-  [RequireComponent(typeof(SpriteRenderer))]
-  public class PlayerAura : MonoBehaviour
+    [RequireComponent(typeof(SpriteRenderer))]
+    public class PlayerAura : MonoBehaviour
     {
         private SpriteRenderer spriteRenderer;
         private RaycastHit2D hit;

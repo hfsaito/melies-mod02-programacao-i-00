@@ -1,9 +1,9 @@
-namespace Assets.App.N1_Menu.Scripts.MainMenu
-{
-    using UnityEngine;
-    using UnityEngine.UI;
-    using UnityEngine.SceneManagement;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
+namespace Assets.App.Menu
+{
     [RequireComponent(typeof(Button))]
     public class ButtonPlay : MonoBehaviour
     {
@@ -17,7 +17,7 @@ namespace Assets.App.N1_Menu.Scripts.MainMenu
 
         void HandleClick()
         {
-            SceneManager.LoadScene("Mechanics", LoadSceneMode.Single);
+            SceneManager.LoadScene("Mechanics");
         }
     }
 }

@@ -1,13 +1,13 @@
-namespace Assets.App.N1_Menu.Scripts.MainMenu
-{
-    using UnityEngine;
-    using UnityEngine.UI;
+using UnityEngine;
+using UnityEngine.UI;
 
+namespace Assets.App.Common.MenuPause.ConfrimExit
+{
     [RequireComponent(typeof(Button))]
-    public class ButtonConfig : MonoBehaviour
+    public class Cancel : MonoBehaviour
     {
         [SerializeField]
-        private GameObject menuConfigurationRoot;
+        private GameObject confirmExitObject;
 
         private Button buttonComponent;
 
@@ -19,7 +19,7 @@ namespace Assets.App.N1_Menu.Scripts.MainMenu
 
         void HandleClick()
         {
-            menuConfigurationRoot.SetActive(true);
+            confirmExitObject.SetActive(false);
         }
     }
 }

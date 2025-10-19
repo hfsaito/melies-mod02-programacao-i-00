@@ -39,8 +39,6 @@ namespace Assets.App.Components.MenuConfiguration
 
         void Start()
         {
-            gameObject.SetActive(false);
-
             resolutions = EligibleResolutions();
             resolutionOptions = resolutions
                 .Select(res => $"{res.width} x {res.height} @ {res.refreshRateRatio:F2}Hz")

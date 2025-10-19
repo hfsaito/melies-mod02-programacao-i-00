@@ -1,8 +1,8 @@
-namespace Assets.App.N1_Menu.Scripts.MainMenu
-{
-    using UnityEngine;
-    using UnityEngine.UI;
+using UnityEngine;
+using UnityEngine.UI;
 
+namespace Assets.App.Menu
+{
     [RequireComponent(typeof(Button))]
     public class ButtonExit : MonoBehaviour
     {

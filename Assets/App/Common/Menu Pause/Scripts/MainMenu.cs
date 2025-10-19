@@ -1,14 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-namespace Assets.App.Components.MenuConfiguration
+namespace Assets.App.Common.MenuPause
 {
     [RequireComponent(typeof(Button))]
-    public class MenuConfigurationBack : MonoBehaviour
+    public class MainMenu : MonoBehaviour
     {
-        [SerializeField]
-        private GameObject menuConfigurationRoot;
-
         private Button buttonComponent;
 
         void Start()
@@ -19,7 +17,7 @@ namespace Assets.App.Components.MenuConfiguration
 
         void HandleClick()
         {
-            menuConfigurationRoot.SetActive(false);
+            SceneManager.LoadScene("Menu");
         }
     }
 }

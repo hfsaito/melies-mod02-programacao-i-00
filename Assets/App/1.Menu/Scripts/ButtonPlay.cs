@@ -17,7 +17,7 @@ namespace Assets.App.Menu
 
         void HandleClick()
         {
-            SceneManager.LoadScene("Mechanics");
+            SceneManager.LoadScene("Play");
         }
     }
 }

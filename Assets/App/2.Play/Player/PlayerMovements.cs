@@ -2,51 +2,48 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
-namespace Assets.App.Mechanics
+namespace Assets.App.Play.Player
 {
     [RequireComponent(typeof(Rigidbody2D))]
-    public class PlayerControls : MonoBehaviour
+    public class PlayerMovement : MonoBehaviour
     {
         private InputSystem_Actions input;
         private InputAction moveAction;
-        private InputAction pauseAction;
+        private InputAction jumpAction;
         private Vector2 moveVector;
-        private Rigidbody2D rb;
+        private Rigidbody2D c_rigidbody2d;
         readonly float MOVE_SPEED = 3.5f;
-
-        [SerializeField]
-        private UnityEvent onActionPause;
 
         void Awake()
         {
             input = new();
             moveAction = input.Player.Move;
-            pauseAction = input.Player.Pause;
+            jumpAction = input.Player.Jump;
 
-            rb = GetComponent<Rigidbody2D>();
+            c_rigidbody2d = GetComponent<Rigidbody2D>();
         }
 
         void OnEnable()
         {
             input.Enable();
-            pauseAction.performed += HandlePause;
+            jumpAction.performed += HandleJump;
         }
 
         void OnDisable()
         {
             input.Disable();
-            pauseAction.performed -= HandlePause;
+            jumpAction.performed -= HandleJump;
         }
 
         void FixedUpdate()
         {
             moveVector = moveAction.ReadValue<Vector2>();
-            rb.linearVelocityX = moveVector.x * MOVE_SPEED;
+            c_rigidbody2d.linearVelocityX = moveVector.x * MOVE_SPEED;
         }
 
-        void HandlePause(InputAction.CallbackContext _context)
+        void HandleJump(InputAction.CallbackContext _context)
         {
-            onActionPause.Invoke();
+
         }
     }
 }

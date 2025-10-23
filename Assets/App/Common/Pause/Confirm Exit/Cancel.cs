@@ -9,12 +9,12 @@ namespace Assets.App.Common.MenuPause.ConfrimExit
         [SerializeField]
         private GameObject confirmExitObject;
 
-        private Button buttonComponent;
+        private Button c_button;
 
         void Start()
         {
-            buttonComponent = GetComponent<Button>();
-            buttonComponent.onClick.AddListener(HandleClick);
+            c_button = GetComponent<Button>();
+            c_button.onClick.AddListener(HandleClick);
         }
 
         void HandleClick()

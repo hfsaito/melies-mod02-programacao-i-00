@@ -9,9 +9,9 @@ namespace Assets.App.Components.MenuButton
     [RequireComponent(typeof(HorizontalLayoutGroup))]
     public class MenuButtonText : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
-        private Button buttonComponent;
-        private TextMeshProUGUI textComponent;
-        private HorizontalLayoutGroup horizontalLayoutComponent;
+        private Button c_button;
+        private TextMeshProUGUI c_text;
+        private HorizontalLayoutGroup c_horizontalLayout;
 
         private RectOffset idlePosition;
         private RectOffset pressedPosition;
@@ -24,9 +24,9 @@ namespace Assets.App.Components.MenuButton
 
         void Start()
         {
-            buttonComponent = GetComponent<Button>();
-            horizontalLayoutComponent = GetComponent<HorizontalLayoutGroup>();
-            textComponent = GetComponentInChildren<TextMeshProUGUI>();
+            c_button = GetComponent<Button>();
+            c_horizontalLayout = GetComponent<HorizontalLayoutGroup>();
+            c_text = GetComponentInChildren<TextMeshProUGUI>();
 
             idlePosition = new(8, 8, 6, 15);
             pressedPosition = new(8, 8, 10, 11);
@@ -34,27 +34,27 @@ namespace Assets.App.Components.MenuButton
 
         void Update()
         {
-            if (buttonComponent.interactable)
+            if (c_button.interactable)
             {
-                textComponent.color = Color.black;
+                c_text.color = Color.black;
             }
             else
             {
-                textComponent.color = DISABLED_COLOR;
+                c_text.color = DISABLED_COLOR;
             }
         }
 
         public void OnPointerDown(PointerEventData eventData)
         {
-            if (buttonComponent.interactable)
+            if (c_button.interactable)
             {
-                horizontalLayoutComponent.padding = pressedPosition;
+                c_horizontalLayout.padding = pressedPosition;
             }
         }
 
         public void OnPointerUp(PointerEventData eventData)
         {
-            horizontalLayoutComponent.padding = idlePosition;
+            c_horizontalLayout.padding = idlePosition;
         }
     }
 

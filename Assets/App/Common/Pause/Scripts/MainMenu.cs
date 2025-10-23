@@ -7,12 +7,12 @@ namespace Assets.App.Common.MenuPause
     [RequireComponent(typeof(Button))]
     public class MainMenu : MonoBehaviour
     {
-        private Button buttonComponent;
+        private Button c_button;
 
         void Start()
         {
-            buttonComponent = GetComponent<Button>();
-            buttonComponent.onClick.AddListener(HandleClick);
+            c_button = GetComponent<Button>();
+            c_button.onClick.AddListener(HandleClick);
         }
 
         void HandleClick()

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Assets.App.Mechanics
+namespace Assets.App.Play.Player
 {
     [RequireComponent(typeof(SpriteRenderer))]
     public class AntigravityField : MonoBehaviour

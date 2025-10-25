@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8784771548502845279}
   - component: {fileID: 2184012419662883448}
   - component: {fileID: 6659513900533784278}
+  - component: {fileID: 7715528824454519114}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Collectable
@@ -171,3 +172,15 @@ PolygonCollider2D:
       - {x: -0.0625, y: -0.25}
       - {x: 0.0625, y: -0.25}
   m_UseDelaunayMesh: 0
+--- !u!114 &7715528824454519114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5807477572476732005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7252333461e7a54a83d2e6cc26a8892, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -24,10 +24,12 @@ namespace Assets.App.Play.Player
             }
         }
 
-        void OnDrawGizmos()
-        {
-            Gizmos.color = Color.blue;
-            Gizmos.DrawWireSphere(transform.position, 2);
-        }
+        #region EDITOR
+        // void OnDrawGizmos()
+        // {
+        //     Gizmos.color = Color.blue;
+        //     Gizmos.DrawWireSphere(transform.position, 2);
+        // }
+        #endregion
     }
 }

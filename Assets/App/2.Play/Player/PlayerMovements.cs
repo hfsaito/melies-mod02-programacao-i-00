@@ -20,7 +20,7 @@ namespace Assets.App.Play.Player
         private RaycastHit2D groundRaycastHit2D;
         private readonly float JUMP_CHECKER_RADIUS = .32f;
         private readonly Vector3 JUMP_CHECKER_OFFSET_POSITION = new(0f, -.32f);
-        private readonly float JUMP_FORCE = 4f;
+        private readonly float JUMP_FORCE = 6f;
 
         void Awake()
         {

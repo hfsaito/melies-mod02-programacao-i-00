@@ -11,14 +11,11 @@ namespace Assets.App.Play.Player
     }
 
     [RequireComponent(typeof(Rigidbody2D))]
-    public class PlayerMovement : MonoBehaviour
+    public class PlayerJump : MonoBehaviour
     {
         private InputSystem_Actions input;
-        private InputAction moveAction;
         private InputAction jumpAction;
-        private Vector2 moveVector;
         private Rigidbody2D c_rigidbody2d;
-        readonly float MOVE_SPEED = 3.5f;
 
         private PLAYER_JUMP_STATE jump_state;
         private int groundLayer;
@@ -30,7 +27,6 @@ namespace Assets.App.Play.Player
         void Awake()
         {
             input = new();
-            moveAction = input.Player.Move;
             jumpAction = input.Player.Jump;
 
             c_rigidbody2d = GetComponent<Rigidbody2D>();
@@ -51,18 +47,6 @@ namespace Assets.App.Play.Player
         }
 
         void FixedUpdate()
-        {
-            FixedUpdate_Move();
-            FixedUpdate_Jump();
-        }
-
-        private void FixedUpdate_Move()
-        {
-            moveVector = moveAction.ReadValue<Vector2>();
-            c_rigidbody2d.linearVelocityX = moveVector.x * MOVE_SPEED;
-        }
-
-        private void FixedUpdate_Jump()
         {
             if (jump_state == PLAYER_JUMP_STATE.IDLE)
             {

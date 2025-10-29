@@ -120,18 +120,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Power1"",
+                    ""name"": ""ResetPosition"",
                     ""type"": ""Button"",
                     ""id"": ""884005ad-5a02-4c33-91cc-b8fb20fa7bc3"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Power2"",
-                    ""type"": ""Button"",
-                    ""id"": ""2437e9ed-37f2-40e4-9507-2f7d9c16f001"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
@@ -219,22 +210,11 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""0f866980-3577-478e-8e57-545f5cf937f7"",
-                    ""path"": ""<Keyboard>/j"",
+                    ""path"": ""<Keyboard>/r"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Power1"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""4cfb6913-abf9-44c6-bc7f-5a5196ad92df"",
-                    ""path"": ""<Keyboard>/k"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Power2"",
+                    ""action"": ""ResetPosition"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -309,8 +289,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
         m_Player_Pause = m_Player.FindAction("Pause", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
-        m_Player_Power1 = m_Player.FindAction("Power1", throwIfNotFound: true);
-        m_Player_Power2 = m_Player.FindAction("Power2", throwIfNotFound: true);
+        m_Player_ResetPosition = m_Player.FindAction("ResetPosition", throwIfNotFound: true);
     }
 
     ~@InputSystem_Actions()
@@ -394,8 +373,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Move;
     private readonly InputAction m_Player_Pause;
     private readonly InputAction m_Player_Jump;
-    private readonly InputAction m_Player_Power1;
-    private readonly InputAction m_Player_Power2;
+    private readonly InputAction m_Player_ResetPosition;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -420,13 +398,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// </summary>
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
         /// <summary>
-        /// Provides access to the underlying input action "Player/Power1".
+        /// Provides access to the underlying input action "Player/ResetPosition".
         /// </summary>
-        public InputAction @Power1 => m_Wrapper.m_Player_Power1;
-        /// <summary>
-        /// Provides access to the underlying input action "Player/Power2".
-        /// </summary>
-        public InputAction @Power2 => m_Wrapper.m_Player_Power2;
+        public InputAction @ResetPosition => m_Wrapper.m_Player_ResetPosition;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -462,12 +436,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @Jump.started += instance.OnJump;
             @Jump.performed += instance.OnJump;
             @Jump.canceled += instance.OnJump;
-            @Power1.started += instance.OnPower1;
-            @Power1.performed += instance.OnPower1;
-            @Power1.canceled += instance.OnPower1;
-            @Power2.started += instance.OnPower2;
-            @Power2.performed += instance.OnPower2;
-            @Power2.canceled += instance.OnPower2;
+            @ResetPosition.started += instance.OnResetPosition;
+            @ResetPosition.performed += instance.OnResetPosition;
+            @ResetPosition.canceled += instance.OnResetPosition;
         }
 
         /// <summary>
@@ -488,12 +459,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @Jump.started -= instance.OnJump;
             @Jump.performed -= instance.OnJump;
             @Jump.canceled -= instance.OnJump;
-            @Power1.started -= instance.OnPower1;
-            @Power1.performed -= instance.OnPower1;
-            @Power1.canceled -= instance.OnPower1;
-            @Power2.started -= instance.OnPower2;
-            @Power2.performed -= instance.OnPower2;
-            @Power2.canceled -= instance.OnPower2;
+            @ResetPosition.started -= instance.OnResetPosition;
+            @ResetPosition.performed -= instance.OnResetPosition;
+            @ResetPosition.canceled -= instance.OnResetPosition;
         }
 
         /// <summary>
@@ -621,18 +589,11 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnJump(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Power1" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "ResetPosition" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnPower1(InputAction.CallbackContext context);
-        /// <summary>
-        /// Method invoked when associated input action "Power2" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnPower2(InputAction.CallbackContext context);
+        void OnResetPosition(InputAction.CallbackContext context);
     }
 }

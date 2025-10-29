@@ -3,6 +3,7 @@ using UnityEngine;
 namespace Assets.App.Common.Coin
 {
     [RequireComponent(typeof(RectTransform))]
+    [RequireComponent(typeof(AudioSource))]
     public class CoinSpawner : MonoBehaviour
     {
         [SerializeField]
@@ -13,8 +14,12 @@ namespace Assets.App.Common.Coin
         private int coinCounter = 0;
         private RectTransform c_rectTransform;
 
+        private AudioSource c_audioSource;
+        [SerializeField] private AudioClip coinAudioClip;
+
         void Start()
         {
+            c_audioSource = GetComponent<AudioSource>();
             c_rectTransform = GetComponent<RectTransform>();
         }
 
@@ -44,6 +49,7 @@ namespace Assets.App.Common.Coin
         private void HandleCoinDestroyed()
         {
             coinCounter--;
+            c_audioSource.PlayOneShot(coinAudioClip);
         }
 
         #region EDITOR

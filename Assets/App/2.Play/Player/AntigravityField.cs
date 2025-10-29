@@ -1,5 +1,7 @@
 using UnityEngine;
 
+using Assets.App.Common;
+
 namespace Assets.App.Play.Player
 {
     [RequireComponent(typeof(SpriteRenderer))]
@@ -7,10 +9,11 @@ namespace Assets.App.Play.Player
     {
         private RaycastHit2D hit;
         private int antigravityLayer;
+        private Levitatable levitatable;
 
         void Start()
         {
-            antigravityLayer = LayerMask.GetMask("Antigravity Raycast");
+            antigravityLayer = LayerMask.GetMask("Levitatables");
         }
 
         void FixedUpdate()
@@ -20,16 +23,9 @@ namespace Assets.App.Play.Player
             );
             if (hit.collider != null)
             {
-                hit.rigidbody.AddForceY(15f);
+                levitatable = hit.collider.GetComponent<Levitatable>();
+                levitatable.Levitate();
             }
         }
-
-        #region EDITOR
-        // void OnDrawGizmos()
-        // {
-        //     Gizmos.color = Color.blue;
-        //     Gizmos.DrawWireSphere(transform.position, 2);
-        // }
-        #endregion
     }
 }

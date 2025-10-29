@@ -9,7 +9,6 @@ namespace Assets.App.Play.Player
     {
         private RaycastHit2D hit;
         private int antigravityLayer;
-        private Levitatable levitatable;
 
         void Start()
         {
@@ -23,8 +22,7 @@ namespace Assets.App.Play.Player
             );
             if (hit.collider != null)
             {
-                levitatable = hit.collider.GetComponent<Levitatable>();
-                levitatable.Levitate();
+                hit.rigidbody.AddForceY(15f);
             }
         }
     }

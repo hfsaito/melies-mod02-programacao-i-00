@@ -1,5 +1,7 @@
 using UnityEngine;
 
+using Assets.App.Common;
+
 namespace Assets.App.Play.Player
 {
     public class PlayerCollector : MonoBehaviour
@@ -8,7 +10,7 @@ namespace Assets.App.Play.Player
         {
             if (other.CompareTag("Collectable"))
             {
-                Destroy(other.gameObject);
+                other.GetComponent<Collectable>().Collect();
             }
         }
     }

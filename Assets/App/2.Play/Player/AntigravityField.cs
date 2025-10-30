@@ -1,7 +1,5 @@
 using UnityEngine;
 
-using Assets.App.Common;
-
 namespace Assets.App.Play.Player
 {
     [RequireComponent(typeof(SpriteRenderer))]

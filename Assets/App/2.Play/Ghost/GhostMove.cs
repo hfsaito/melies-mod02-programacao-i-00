@@ -1,17 +1,20 @@
 using UnityEngine;
 
-public class GhostMove : MonoBehaviour
+namespace Assets.App.Play.Ghost
 {
-    private float initialPosition;
-    void Start()
+    public class GhostMove : MonoBehaviour
     {
-        initialPosition = transform.position.x;
-    }
-    void Update()
-    {
-        transform.position = new Vector3(
-            initialPosition + Mathf.Sin(Time.time),
-            transform.position.y
-        );
+        private float initialPosition;
+        void Start()
+        {
+            initialPosition = transform.position.x;
+        }
+        void Update()
+        {
+            transform.position = new Vector3(
+                initialPosition + Mathf.Sin(Time.time),
+                transform.position.y
+            );
+        }
     }
 }

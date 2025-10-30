@@ -6,10 +6,8 @@ namespace Assets.App.Common.Coin
     [RequireComponent(typeof(AudioSource))]
     public class CoinSpawner : MonoBehaviour
     {
-        [SerializeField]
-        private Coin prefab;
-        [SerializeField]
-        private int EXPECTED_COINS_IN_GAME;
+        [SerializeField] private Coin prefab;
+        [SerializeField] private int EXPECTED_COINS_IN_GAME;
         private Coin created;
         private int coinCounter = 0;
         private RectTransform c_rectTransform;
@@ -42,7 +40,7 @@ namespace Assets.App.Common.Coin
                     ),
                     new Quaternion()
                 );
-                created.OnDestroyEvent.AddListener(HandleCoinDestroyed);
+                created.OnCollectEvent.AddListener(HandleCoinDestroyed);
             }
         }
 

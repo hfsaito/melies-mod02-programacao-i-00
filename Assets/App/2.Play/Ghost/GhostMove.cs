@@ -7,7 +7,7 @@ public class GhostMove : MonoBehaviour
     {
         initialPosition = transform.position.x;
     }
-    void FixedUpdate()
+    void Update()
     {
         transform.position = new Vector3(
             initialPosition + Mathf.Sin(Time.time),

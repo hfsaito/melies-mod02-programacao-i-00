@@ -14,7 +14,7 @@ public class PlayerPrefsX
 
     enum ArrayType { Float, Int32, Bool, String, Vector2, Vector3, Quaternion, Color }
 
-    public static bool SetBool(String name, bool value)
+    public static bool SetBool(string name, bool value)
     {
         try
         {
@@ -27,27 +27,26 @@ public class PlayerPrefsX
         return true;
     }
 
-    public static bool GetBool(String name)
+    public static bool GetBool(string name)
     {
         return PlayerPrefs.GetInt(name) == 1;
     }
 
-    public static bool GetBool(String name, bool defaultValue)
+    public static bool GetBool(string name, bool defaultValue)
     {
-        return (1 == PlayerPrefs.GetInt(name, defaultValue ? 1 : 0));
+        return 1 == PlayerPrefs.GetInt(name, defaultValue ? 1 : 0);
     }
 
     public static long GetLong(string key, long defaultValue)
     {
-        int lowBits, highBits;
-        SplitLong(defaultValue, out lowBits, out highBits);
+        SplitLong(defaultValue, out int lowBits, out int highBits);
         lowBits = PlayerPrefs.GetInt(key + "_lowBits", lowBits);
         highBits = PlayerPrefs.GetInt(key + "_highBits", highBits);
 
         // unsigned, to prevent loss of sign bit.
         ulong ret = (uint)highBits;
-        ret = (ret << 32);
-        return (long)(ret | (ulong)(uint)lowBits);
+        ret <<= 32;
+        return (long)(ret | (uint)lowBits);
     }
 
     public static long GetLong(string key)
@@ -57,8 +56,8 @@ public class PlayerPrefsX
 
         // unsigned, to prevent loss of sign bit.
         ulong ret = (uint)highBits;
-        ret = (ret << 32);
-        return (long)(ret | (ulong)(uint)lowBits);
+        ret <<= 32;
+        return (long)(ret | (uint)lowBits);
     }
 
     private static void SplitLong(long input, out int lowBits, out int highBits)
@@ -70,18 +69,17 @@ public class PlayerPrefsX
 
     public static void SetLong(string key, long value)
     {
-        int lowBits, highBits;
-        SplitLong(value, out lowBits, out highBits);
+        SplitLong(value, out int lowBits, out int highBits);
         PlayerPrefs.SetInt(key + "_lowBits", lowBits);
         PlayerPrefs.SetInt(key + "_highBits", highBits);
     }
 
-    public static bool SetVector2(String key, Vector2 vector)
+    public static bool SetVector2(string key, Vector2 vector)
     {
         return SetFloatArray(key, new float[] { vector.x, vector.y });
     }
 
-    static Vector2 GetVector2(String key)
+    static Vector2 GetVector2(string key)
     {
         var floatArray = GetFloatArray(key);
         if (floatArray.Length < 2)
@@ -91,7 +89,7 @@ public class PlayerPrefsX
         return new Vector2(floatArray[0], floatArray[1]);
     }
 
-    public static Vector2 GetVector2(String key, Vector2 defaultValue)
+    public static Vector2 GetVector2(string key, Vector2 defaultValue)
     {
         if (PlayerPrefs.HasKey(key))
         {
@@ -100,12 +98,12 @@ public class PlayerPrefsX
         return defaultValue;
     }
 
-    public static bool SetVector3(String key, Vector3 vector)
+    public static bool SetVector3(string key, Vector3 vector)
     {
         return SetFloatArray(key, new float[] { vector.x, vector.y, vector.z });
     }
 
-    public static Vector3 GetVector3(String key)
+    public static Vector3 GetVector3(string key)
     {
         var floatArray = GetFloatArray(key);
         if (floatArray.Length < 3)
@@ -115,7 +113,7 @@ public class PlayerPrefsX
         return new Vector3(floatArray[0], floatArray[1], floatArray[2]);
     }
 
-    public static Vector3 GetVector3(String key, Vector3 defaultValue)
+    public static Vector3 GetVector3(string key, Vector3 defaultValue)
     {
         if (PlayerPrefs.HasKey(key))
         {
@@ -124,12 +122,12 @@ public class PlayerPrefsX
         return defaultValue;
     }
 
-    public static bool SetQuaternion(String key, Quaternion vector)
+    public static bool SetQuaternion(string key, Quaternion vector)
     {
         return SetFloatArray(key, new float[] { vector.x, vector.y, vector.z, vector.w });
     }
 
-    public static Quaternion GetQuaternion(String key)
+    public static Quaternion GetQuaternion(string key)
     {
         var floatArray = GetFloatArray(key);
         if (floatArray.Length < 4)
@@ -139,7 +137,7 @@ public class PlayerPrefsX
         return new Quaternion(floatArray[0], floatArray[1], floatArray[2], floatArray[3]);
     }
 
-    public static Quaternion GetQuaternion(String key, Quaternion defaultValue)
+    public static Quaternion GetQuaternion(string key, Quaternion defaultValue)
     {
         if (PlayerPrefs.HasKey(key))
         {
@@ -148,12 +146,12 @@ public class PlayerPrefsX
         return defaultValue;
     }
 
-    public static bool SetColor(String key, Color color)
+    public static bool SetColor(string key, Color color)
     {
         return SetFloatArray(key, new float[] { color.r, color.g, color.b, color.a });
     }
 
-    public static Color GetColor(String key)
+    public static Color GetColor(string key)
     {
         var floatArray = GetFloatArray(key);
         if (floatArray.Length < 4)
@@ -163,7 +161,7 @@ public class PlayerPrefsX
         return new Color(floatArray[0], floatArray[1], floatArray[2], floatArray[3]);
     }
 
-    public static Color GetColor(String key, Color defaultValue)
+    public static Color GetColor(string key, Color defaultValue)
     {
         if (PlayerPrefs.HasKey(key))
         {
@@ -172,12 +170,12 @@ public class PlayerPrefsX
         return defaultValue;
     }
 
-    public static bool SetBoolArray(String key, bool[] boolArray)
+    public static bool SetBoolArray(string key, bool[] boolArray)
     {
         // Make a byte array that's a multiple of 8 in length, plus 5 bytes to store the number of entries as an int32 (+ identifier)
         // We have to store the number of entries, since the boolArray length might not be a multiple of 8, so there could be some padded zeroes
         var bytes = new byte[(boolArray.Length + 7) / 8 + 5];
-        bytes[0] = System.Convert.ToByte(ArrayType.Bool);   // Identifier
+        bytes[0] = Convert.ToByte(ArrayType.Bool);   // Identifier
         var bits = new BitArray(boolArray);
         bits.CopyTo(bytes, 5);
         Initialize();
@@ -186,11 +184,11 @@ public class PlayerPrefsX
         return SaveBytes(key, bytes);
     }
 
-    public static bool[] GetBoolArray(String key)
+    public static bool[] GetBoolArray(string key)
     {
         if (PlayerPrefs.HasKey(key))
         {
-            var bytes = System.Convert.FromBase64String(PlayerPrefs.GetString(key));
+            var bytes = Convert.FromBase64String(PlayerPrefs.GetString(key));
             if (bytes.Length < 5)
             {
                 Debug.LogError("Corrupt preference file for " + key);
@@ -205,7 +203,7 @@ public class PlayerPrefsX
 
             // Make a new bytes array that doesn't include the number of entries + identifier (first 5 bytes) and turn that into a BitArray
             var bytes2 = new byte[bytes.Length - 5];
-            System.Array.Copy(bytes, 5, bytes2, 0, bytes2.Length);
+            Array.Copy(bytes, 5, bytes2, 0, bytes2.Length);
             var bits = new BitArray(bytes2);
             // Get the number of entries from the first 4 bytes after the identifier and resize the BitArray to that length, then convert it to a boolean array
             bits.Length = ConvertBytesToInt32(bytes);
@@ -217,7 +215,7 @@ public class PlayerPrefsX
         return new bool[0];
     }
 
-    public static bool[] GetBoolArray(String key, bool defaultValue, int defaultSize)
+    public static bool[] GetBoolArray(string key, bool defaultValue, int defaultSize)
     {
         if (PlayerPrefs.HasKey(key))
         {
@@ -231,10 +229,10 @@ public class PlayerPrefsX
         return boolArray;
     }
 
-    public static bool SetStringArray(String key, String[] stringArray)
+    public static bool SetStringArray(string key, string[] stringArray)
     {
         var bytes = new byte[stringArray.Length + 1];
-        bytes[0] = System.Convert.ToByte(ArrayType.String); // Identifier
+        bytes[0] = Convert.ToByte(ArrayType.String); // Identifier
         Initialize();
 
         // Store the length of each string that's in stringArray, so we can extract the correct strings in GetStringArray
@@ -255,7 +253,7 @@ public class PlayerPrefsX
 
         try
         {
-            PlayerPrefs.SetString(key, System.Convert.ToBase64String(bytes) + "|" + String.Join("", stringArray));
+            PlayerPrefs.SetString(key, Convert.ToBase64String(bytes) + "|" + string.Join("", stringArray));
         }
         catch
         {
@@ -264,7 +262,7 @@ public class PlayerPrefsX
         return true;
     }
 
-    public static String[] GetStringArray(String key)
+    public static string[] GetStringArray(string key)
     {
         if (PlayerPrefs.HasKey(key))
         {
@@ -273,18 +271,18 @@ public class PlayerPrefsX
             if (separatorIndex < 4)
             {
                 Debug.LogError("Corrupt preference file for " + key);
-                return new String[0];
+                return new string[0];
             }
-            var bytes = System.Convert.FromBase64String(completeString.Substring(0, separatorIndex));
+            var bytes = Convert.FromBase64String(completeString.Substring(0, separatorIndex));
             if ((ArrayType)bytes[0] != ArrayType.String)
             {
                 Debug.LogError(key + " is not a string array");
-                return new String[0];
+                return new string[0];
             }
             Initialize();
 
             var numberOfEntries = bytes.Length - 1;
-            var stringArray = new String[numberOfEntries];
+            var stringArray = new string[numberOfEntries];
             var stringIndex = separatorIndex + 1;
             for (var i = 0; i < numberOfEntries; i++)
             {
@@ -292,7 +290,7 @@ public class PlayerPrefsX
                 if (stringIndex + stringLength > completeString.Length)
                 {
                     Debug.LogError("Corrupt preference file for " + key);
-                    return new String[0];
+                    return new string[0];
                 }
                 stringArray[i] = completeString.Substring(stringIndex, stringLength);
                 stringIndex += stringLength;
@@ -300,16 +298,16 @@ public class PlayerPrefsX
 
             return stringArray;
         }
-        return new String[0];
+        return new string[0];
     }
 
-    public static String[] GetStringArray(String key, String defaultValue, int defaultSize)
+    public static string[] GetStringArray(string key, string defaultValue, int defaultSize)
     {
         if (PlayerPrefs.HasKey(key))
         {
             return GetStringArray(key);
         }
-        var stringArray = new String[defaultSize];
+        var stringArray = new string[defaultSize];
         for (int i = 0; i < defaultSize; i++)
         {
             stringArray[i] = defaultValue;
@@ -317,40 +315,40 @@ public class PlayerPrefsX
         return stringArray;
     }
 
-    public static bool SetIntArray(String key, int[] intArray)
+    public static bool SetIntArray(string key, int[] intArray)
     {
         return SetValue(key, intArray, ArrayType.Int32, 1, ConvertFromInt);
     }
 
-    public static bool SetFloatArray(String key, float[] floatArray)
+    public static bool SetFloatArray(string key, float[] floatArray)
     {
         return SetValue(key, floatArray, ArrayType.Float, 1, ConvertFromFloat);
     }
 
-    public static bool SetVector2Array(String key, Vector2[] vector2Array)
+    public static bool SetVector2Array(string key, Vector2[] vector2Array)
     {
         return SetValue(key, vector2Array, ArrayType.Vector2, 2, ConvertFromVector2);
     }
 
-    public static bool SetVector3Array(String key, Vector3[] vector3Array)
+    public static bool SetVector3Array(string key, Vector3[] vector3Array)
     {
         return SetValue(key, vector3Array, ArrayType.Vector3, 3, ConvertFromVector3);
     }
 
-    public static bool SetQuaternionArray(String key, Quaternion[] quaternionArray)
+    public static bool SetQuaternionArray(string key, Quaternion[] quaternionArray)
     {
         return SetValue(key, quaternionArray, ArrayType.Quaternion, 4, ConvertFromQuaternion);
     }
 
-    public static bool SetColorArray(String key, Color[] colorArray)
+    public static bool SetColorArray(string key, Color[] colorArray)
     {
         return SetValue(key, colorArray, ArrayType.Color, 4, ConvertFromColor);
     }
 
-    private static bool SetValue<T>(String key, T array, ArrayType arrayType, int vectorNumber, Action<T, byte[], int> convert) where T : IList
+    private static bool SetValue<T>(string key, T array, ArrayType arrayType, int vectorNumber, Action<T, byte[], int> convert) where T : IList
     {
-        var bytes = new byte[(4 * array.Count) * vectorNumber + 1];
-        bytes[0] = System.Convert.ToByte(arrayType);    // Identifier
+        var bytes = new byte[4 * array.Count * vectorNumber + 1];
+        bytes[0] = Convert.ToByte(arrayType);    // Identifier
         Initialize();
 
         for (var i = 0; i < array.Count; i++)
@@ -399,14 +397,14 @@ public class PlayerPrefsX
         ConvertFloatToBytes(array[i].a, bytes);
     }
 
-    public static int[] GetIntArray(String key)
+    public static int[] GetIntArray(string key)
     {
         var intList = new List<int>();
         GetValue(key, intList, ArrayType.Int32, 1, ConvertToInt);
         return intList.ToArray();
     }
 
-    public static int[] GetIntArray(String key, int defaultValue, int defaultSize)
+    public static int[] GetIntArray(string key, int defaultValue, int defaultSize)
     {
         if (PlayerPrefs.HasKey(key))
         {
@@ -420,14 +418,14 @@ public class PlayerPrefsX
         return intArray;
     }
 
-    public static float[] GetFloatArray(String key)
+    public static float[] GetFloatArray(string key)
     {
         var floatList = new List<float>();
         GetValue(key, floatList, ArrayType.Float, 1, ConvertToFloat);
         return floatList.ToArray();
     }
 
-    public static float[] GetFloatArray(String key, float defaultValue, int defaultSize)
+    public static float[] GetFloatArray(string key, float defaultValue, int defaultSize)
     {
         if (PlayerPrefs.HasKey(key))
         {
@@ -441,14 +439,14 @@ public class PlayerPrefsX
         return floatArray;
     }
 
-    public static Vector2[] GetVector2Array(String key)
+    public static Vector2[] GetVector2Array(string key)
     {
         var vector2List = new List<Vector2>();
         GetValue(key, vector2List, ArrayType.Vector2, 2, ConvertToVector2);
         return vector2List.ToArray();
     }
 
-    public static Vector2[] GetVector2Array(String key, Vector2 defaultValue, int defaultSize)
+    public static Vector2[] GetVector2Array(string key, Vector2 defaultValue, int defaultSize)
     {
         if (PlayerPrefs.HasKey(key))
         {
@@ -462,14 +460,14 @@ public class PlayerPrefsX
         return vector2Array;
     }
 
-    public static Vector3[] GetVector3Array(String key)
+    public static Vector3[] GetVector3Array(string key)
     {
         var vector3List = new List<Vector3>();
         GetValue(key, vector3List, ArrayType.Vector3, 3, ConvertToVector3);
         return vector3List.ToArray();
     }
 
-    public static Vector3[] GetVector3Array(String key, Vector3 defaultValue, int defaultSize)
+    public static Vector3[] GetVector3Array(string key, Vector3 defaultValue, int defaultSize)
     {
         if (PlayerPrefs.HasKey(key))
 
@@ -484,14 +482,14 @@ public class PlayerPrefsX
         return vector3Array;
     }
 
-    public static Quaternion[] GetQuaternionArray(String key)
+    public static Quaternion[] GetQuaternionArray(string key)
     {
         var quaternionList = new List<Quaternion>();
         GetValue(key, quaternionList, ArrayType.Quaternion, 4, ConvertToQuaternion);
         return quaternionList.ToArray();
     }
 
-    public static Quaternion[] GetQuaternionArray(String key, Quaternion defaultValue, int defaultSize)
+    public static Quaternion[] GetQuaternionArray(string key, Quaternion defaultValue, int defaultSize)
     {
         if (PlayerPrefs.HasKey(key))
         {
@@ -505,14 +503,14 @@ public class PlayerPrefsX
         return quaternionArray;
     }
 
-    public static Color[] GetColorArray(String key)
+    public static Color[] GetColorArray(string key)
     {
         var colorList = new List<Color>();
         GetValue(key, colorList, ArrayType.Color, 4, ConvertToColor);
         return colorList.ToArray();
     }
 
-    public static Color[] GetColorArray(String key, Color defaultValue, int defaultSize)
+    public static Color[] GetColorArray(string key, Color defaultValue, int defaultSize)
     {
         if (PlayerPrefs.HasKey(key))
         {
@@ -526,11 +524,11 @@ public class PlayerPrefsX
         return colorArray;
     }
 
-    private static void GetValue<T>(String key, T list, ArrayType arrayType, int vectorNumber, Action<T, byte[]> convert) where T : IList
+    private static void GetValue<T>(string key, T list, ArrayType arrayType, int vectorNumber, Action<T, byte[]> convert) where T : IList
     {
         if (PlayerPrefs.HasKey(key))
         {
-            var bytes = System.Convert.FromBase64String(PlayerPrefs.GetString(key));
+            var bytes = Convert.FromBase64String(PlayerPrefs.GetString(key));
             if ((bytes.Length - 1) % (vectorNumber * 4) != 0)
             {
                 Debug.LogError("Corrupt preference file for " + key);
@@ -581,9 +579,9 @@ public class PlayerPrefsX
         list.Add(new Color(ConvertBytesToFloat(bytes), ConvertBytesToFloat(bytes), ConvertBytesToFloat(bytes), ConvertBytesToFloat(bytes)));
     }
 
-    public static void ShowArrayType(String key)
+    public static void ShowArrayType(string key)
     {
-        var bytes = System.Convert.FromBase64String(PlayerPrefs.GetString(key));
+        var bytes = Convert.FromBase64String(PlayerPrefs.GetString(key));
         if (bytes.Length > 0)
         {
             ArrayType arrayType = (ArrayType)bytes[0];
@@ -593,7 +591,7 @@ public class PlayerPrefsX
 
     private static void Initialize()
     {
-        if (System.BitConverter.IsLittleEndian)
+        if (BitConverter.IsLittleEndian)
         {
             endianDiff1 = 0;
             endianDiff2 = 0;
@@ -603,18 +601,15 @@ public class PlayerPrefsX
             endianDiff1 = 3;
             endianDiff2 = 1;
         }
-        if (byteBlock == null)
-        {
-            byteBlock = new byte[4];
-        }
+        byteBlock ??= new byte[4];
         idx = 1;
     }
 
-    private static bool SaveBytes(String key, byte[] bytes)
+    private static bool SaveBytes(string key, byte[] bytes)
     {
         try
         {
-            PlayerPrefs.SetString(key, System.Convert.ToBase64String(bytes));
+            PlayerPrefs.SetString(key, Convert.ToBase64String(bytes));
         }
         catch
         {
@@ -625,26 +620,26 @@ public class PlayerPrefsX
 
     private static void ConvertFloatToBytes(float f, byte[] bytes)
     {
-        byteBlock = System.BitConverter.GetBytes(f);
+        byteBlock = BitConverter.GetBytes(f);
         ConvertTo4Bytes(bytes);
     }
 
     private static float ConvertBytesToFloat(byte[] bytes)
     {
         ConvertFrom4Bytes(bytes);
-        return System.BitConverter.ToSingle(byteBlock, 0);
+        return BitConverter.ToSingle(byteBlock, 0);
     }
 
     private static void ConvertInt32ToBytes(int i, byte[] bytes)
     {
-        byteBlock = System.BitConverter.GetBytes(i);
+        byteBlock = BitConverter.GetBytes(i);
         ConvertTo4Bytes(bytes);
     }
 
     private static int ConvertBytesToInt32(byte[] bytes)
     {
         ConvertFrom4Bytes(bytes);
-        return System.BitConverter.ToInt32(byteBlock, 0);
+        return BitConverter.ToInt32(byteBlock, 0);
     }
 
     private static void ConvertTo4Bytes(byte[] bytes)

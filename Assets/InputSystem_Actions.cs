@@ -127,15 +127,6 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Power"",
-                    ""type"": ""Button"",
-                    ""id"": ""2f513003-f00c-4a35-8537-c6610b77220b"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -226,17 +217,6 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""action"": ""ResetPosition"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""27d009c1-75a7-4e17-bdd8-a43173ecb86b"",
-                    ""path"": ""<Keyboard>/j"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Power"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -310,7 +290,6 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         m_Player_Pause = m_Player.FindAction("Pause", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
         m_Player_ResetPosition = m_Player.FindAction("ResetPosition", throwIfNotFound: true);
-        m_Player_Power = m_Player.FindAction("Power", throwIfNotFound: true);
     }
 
     ~@InputSystem_Actions()
@@ -395,7 +374,6 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Pause;
     private readonly InputAction m_Player_Jump;
     private readonly InputAction m_Player_ResetPosition;
-    private readonly InputAction m_Player_Power;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -423,10 +401,6 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Player/ResetPosition".
         /// </summary>
         public InputAction @ResetPosition => m_Wrapper.m_Player_ResetPosition;
-        /// <summary>
-        /// Provides access to the underlying input action "Player/Power".
-        /// </summary>
-        public InputAction @Power => m_Wrapper.m_Player_Power;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -465,9 +439,6 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @ResetPosition.started += instance.OnResetPosition;
             @ResetPosition.performed += instance.OnResetPosition;
             @ResetPosition.canceled += instance.OnResetPosition;
-            @Power.started += instance.OnPower;
-            @Power.performed += instance.OnPower;
-            @Power.canceled += instance.OnPower;
         }
 
         /// <summary>
@@ -491,9 +462,6 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @ResetPosition.started -= instance.OnResetPosition;
             @ResetPosition.performed -= instance.OnResetPosition;
             @ResetPosition.canceled -= instance.OnResetPosition;
-            @Power.started -= instance.OnPower;
-            @Power.performed -= instance.OnPower;
-            @Power.canceled -= instance.OnPower;
         }
 
         /// <summary>
@@ -627,12 +595,5 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnResetPosition(InputAction.CallbackContext context);
-        /// <summary>
-        /// Method invoked when associated input action "Power" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnPower(InputAction.CallbackContext context);
     }
 }

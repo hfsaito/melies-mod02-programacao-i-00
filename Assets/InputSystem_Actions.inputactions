@@ -41,15 +41,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "Power",
-                    "type": "Button",
-                    "id": "2f513003-f00c-4a35-8537-c6610b77220b",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -138,17 +129,6 @@
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "ResetPosition",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "27d009c1-75a7-4e17-bdd8-a43173ecb86b",
-                    "path": "<Keyboard>/j",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Power",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

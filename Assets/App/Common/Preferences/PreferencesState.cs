@@ -24,6 +24,7 @@ namespace Assets.App.Common.Preferences
             LoadFullScreen();
             LoadVolume(audioMixer);
             LoadResolution();
+            LoadPlayerPosition();
         }
 
         #region FULLSCREEN
@@ -109,14 +110,20 @@ namespace Assets.App.Common.Preferences
         #endregion
 
         #region PLAYER POSITION
-        public static Vector3 PlayerPosition { get; private set; }
+        public static Vector3 PlayerPosition
+        {
+            get { return playerPosition; }
+            set { SavePlayerPosition(value); }
+        }
+        public static bool HasPlayerPosition { get; private set; }
+        private static Vector3 playerPosition;
         private static void LoadPlayerPosition()
         {
-            var hasKey = PlayerPrefs.HasKey(PLAYER_PREF_KEYS.PLAYER_POSITION_X) &&
+            HasPlayerPosition = PlayerPrefs.HasKey(PLAYER_PREF_KEYS.PLAYER_POSITION_X) &&
                 PlayerPrefs.HasKey(PLAYER_PREF_KEYS.PLAYER_POSITION_Y);
-            if (hasKey)
+            if (HasPlayerPosition)
             {
-                PlayerPosition = new(
+                playerPosition = new(
                     PlayerPrefs.GetFloat(PLAYER_PREF_KEYS.PLAYER_POSITION_X),
                     PlayerPrefs.GetFloat(PLAYER_PREF_KEYS.PLAYER_POSITION_Y)
                 );
@@ -124,6 +131,8 @@ namespace Assets.App.Common.Preferences
         }
         private static void SavePlayerPosition(Vector3 value)
         {
+            playerPosition = value;
+            HasPlayerPosition = true;
             PlayerPrefs.SetFloat(PLAYER_PREF_KEYS.PLAYER_POSITION_X, value.x);
             PlayerPrefs.SetFloat(PLAYER_PREF_KEYS.PLAYER_POSITION_Y, value.y);
         }

@@ -1302,6 +1302,14 @@ PrefabInstance:
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2175847639925291577, guid: 9282493a36aa2c6449884668a4c0362c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175847639925291577, guid: 9282493a36aa2c6449884668a4c0362c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2273787608412765462, guid: 9282493a36aa2c6449884668a4c0362c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1348,19 +1356,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5500361557704274403, guid: 9282493a36aa2c6449884668a4c0362c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5500361557704274403, guid: 9282493a36aa2c6449884668a4c0362c, type: 3}
       propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500361557704274403, guid: 9282493a36aa2c6449884668a4c0362c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500361557704274403, guid: 9282493a36aa2c6449884668a4c0362c, type: 3}
+      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5500361557704274403, guid: 9282493a36aa2c6449884668a4c0362c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 5500361557704274403, guid: 9282493a36aa2c6449884668a4c0362c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -72
       objectReference: {fileID: 0}
     - target: {fileID: 6929661829086576385, guid: 9282493a36aa2c6449884668a4c0362c, type: 3}
       propertyPath: m_Pivot.x
@@ -1471,12 +1487,28 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8453172398789321520, guid: 9282493a36aa2c6449884668a4c0362c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8453172398789321520, guid: 9282493a36aa2c6449884668a4c0362c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8453172398789321520, guid: 9282493a36aa2c6449884668a4c0362c, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 39.42
       objectReference: {fileID: 0}
     - target: {fileID: 8453172398789321520, guid: 9282493a36aa2c6449884668a4c0362c, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8453172398789321520, guid: 9282493a36aa2c6449884668a4c0362c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 8453172398789321520, guid: 9282493a36aa2c6449884668a4c0362c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -172
       objectReference: {fileID: 0}
     - target: {fileID: 8755095101555209260, guid: 9282493a36aa2c6449884668a4c0362c, type: 3}
       propertyPath: m_Name
@@ -11719,6 +11751,7 @@ GameObject:
   - component: {fileID: 1969916581}
   - component: {fileID: 1969916583}
   - component: {fileID: 1969916582}
+  - component: {fileID: 1969916584}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -11952,6 +11985,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1969916584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969916572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4811d4e5de77ef042913f9c911069fcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2031105949
 PrefabInstance:
   m_ObjectHideFlags: 0

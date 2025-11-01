@@ -18,7 +18,10 @@ namespace Assets.App.Common.MenuConfiguration
 
         void OnEnable()
         {
-            c_dropdown.value = PreferencesState.ResolutionIndex;
+            if (c_dropdown.options.Count() > 0)
+            {
+                c_dropdown.value = PreferencesState.ResolutionIndex;
+            }
             c_dropdown.onValueChanged.AddListener(HandleResolutionChange);
         }
 
@@ -35,6 +38,7 @@ namespace Assets.App.Common.MenuConfiguration
                     .Select(res => $"{res.width} x {res.height} @ {res.refreshRateRatio:F2}Hz")
                     .ToList()
             );
+            c_dropdown.value = PreferencesState.ResolutionIndex;
         }
 
         private void HandleResolutionChange(int index)
